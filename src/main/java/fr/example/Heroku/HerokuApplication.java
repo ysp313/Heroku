@@ -18,6 +18,6 @@ public class HerokuApplication {
 class HelloWorldController{
 	@GetMapping("/")
 	String hello(){
-		return "Hello World !";
+		return "Hello World ! Test of deployment...";
 	}
 }
